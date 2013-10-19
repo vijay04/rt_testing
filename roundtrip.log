@@ -1,0 +1,52 @@
+Oct 09 18:19:50  [info] $as = Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [title] => tavera
+            [capacity] => 6
+            [aircondition] => 1
+            [stereo] => 0
+            [local_half_day_cost] => 700
+            [outsource_day_cost] => 15
+            [image_path] => uploads/tavera.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [title] => Chevrolet Tavera
+            [capacity] => 6
+            [aircondition] => 0
+            [stereo] => 1
+            [local_half_day_cost] => 800
+            [outsource_day_cost] => 12
+            [image_path] => uploads/chevrolet-tavera-3.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [title] => Tata Indica
+            [capacity] => 4
+            [aircondition] => 1
+            [stereo] => 1
+            [local_half_day_cost] => 800
+            [outsource_day_cost] => 10
+            [image_path] => uploads/hire_tata_indigo.jpg
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [title] => Tavera · Mahindra Scorpio
+            [capacity] => 4
+            [aircondition] => 0
+            [stereo] => 0
+            [local_half_day_cost] => 1000
+            [outsource_day_cost] => 12
+            [image_path] => uploads/mahindra-scorpio.jpg
+        )
+
+)
+
