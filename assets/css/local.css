@@ -231,3 +231,8 @@ ul.home-footer a:hover {
 /** listing page css start **/
 
 /** listing page css end **/
+
+.feedback-info-text a {
+	color: #8DB232;
+	font-weight: bold;
+}

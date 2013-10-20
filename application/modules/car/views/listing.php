@@ -39,9 +39,9 @@
 						<th>Images</th>
 						<th ng-click="predicate = 'title'; reverse=!reverse">Title</th>
 						<th ng-click="predicate = 'capacity'; reverse=!reverse">Capacity</th>
-						<th>Aircondition</th>
-						<th>Stereo</th>
+						<th>Aircondition / Stereo</th>
 						<th ng-click="predicate = 'price'; reverse=!reverse">Price</th>
+						<th>Actions</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -49,9 +49,12 @@
 						<td><img src="<?php print base_url(); ?>{{car.image_path}}" width="150"/></td>
 						<td>{{car.title}}</td>
 						<td>{{car.capacity}} + driver</td>
-						<td><span ng-show={{car.aircondition}}>Yes</span><span ng-show=!{{car.aircondition}}>No</span></td>
-						<td><span ng-show={{car.stereo}}>Yes</span><span ng-show=!{{car.stereo}}>No</span></td>
-						<td>{{car.price}}</td>
+						<td>
+							<span ng-show={{car.aircondition}}>Yes</span><span ng-show=!{{car.aircondition}}>No</span> /
+							<span ng-show={{car.stereo}}>Yes</span><span ng-show=!{{car.stereo}}>No</span>
+						</td>
+						<td>{{car.price}}<br/>Fare Summary</td>
+						<td><div class="btn btn-success">Book</div></td>
 					</tr>
 				</tbody>
 			</table>

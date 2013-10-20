@@ -55,3 +55,24 @@ if (!function_exists('get_message'))
     }
   }
 }
+
+if (!function_exists('send_email'))
+{
+	/**
+	 * This message will be used to get any message
+	 * which might have been set by some code in the session
+	 * and then display the message
+	 * @return bool
+	 */
+	function send_email($to, $subject, $message) {
+		//getting the ci instance
+		$ci =& get_instance();
+		Logger::debug_var('msg', $message);
+		$ci->load->library('email');
+		$ci->email->from(ADMIN_FROM_EMAIL, ADMIN_FROM_NAME);
+		$ci->email->to($to);
+		$ci->email->subject($subject);
+		$ci->email->message($message);
+		$ci->email->send();
+	}
+}

@@ -146,10 +146,38 @@ class Car extends CI_Controller {
 	}
 
 	function feedback() {
-		$data['view']['title'] = 'Feedback';
-		$data['view']['layout'] = 'car/feedback';
-		$data['view']['data']['content'] = array();
-		page_render($data);
+		require_once('recaptchalib.php');
+		$this->load->library('form_validation');
+		//validate form input
+		$this->form_validation->set_rules('name', 'Name', 'required|xss_clean');
+		$this->form_validation->set_rules('email', 'Email', 'xss_clean|valid_email');
+		$this->form_validation->set_rules('phone', 'Phone', 'required|xss_clean');
+		$this->form_validation->set_rules('description', 'Description', 'required');
+
+		if ($this->form_validation->run() == true)
+		{
+			//$this->load->model('car/car_model');
+			$feedback_data = array(
+				'name' => $_POST['name'],
+				'phone' => $_POST['phone'],
+				'description' => $_POST['description'],
+			);
+			//$car = $this->car_model->entity_save($car_data);
+
+			$body = '';
+			$body = $this->load->view('feedback_email', $feedback_data, true);
+			send_email('vijay.mayekar04@gmail.com,kadamrakhee@gmail.com', 'Urgent Roundtrip Car request', $body);
+
+			set_message('We have received your request. Will get back to you as soon as possible.');
+			redirect('feedback');
+		}
+		else {
+			$data['view']['title'] = 'Feedback';
+			$data['view']['layout'] = 'car/feedback';
+			$data['view']['data']['content'] = array();
+			page_render($data);
+
+		}
 	}
 
 }
