@@ -147,12 +147,14 @@ class Car extends CI_Controller {
 
 	function feedback() {
 		require_once('recaptchalib.php');
+
 		$this->load->library('form_validation');
 		//validate form input
 		$this->form_validation->set_rules('name', 'Name', 'required|xss_clean');
 		$this->form_validation->set_rules('email', 'Email', 'xss_clean|valid_email');
 		$this->form_validation->set_rules('phone', 'Phone', 'required|xss_clean');
 		$this->form_validation->set_rules('description', 'Description', 'required');
+		$this->form_validation->set_rules('recaptcha_response_field', 'captcha', 'required|callback_captcha_check');
 
 		if ($this->form_validation->run() == true)
 		{
@@ -166,7 +168,7 @@ class Car extends CI_Controller {
 
 			$body = '';
 			$body = $this->load->view('feedback_email', $feedback_data, true);
-			send_email('vijay.mayekar04@gmail.com,kadamrakhee@gmail.com', 'Urgent Roundtrip Car request', $body);
+			send_email('vijay.mayekar04@gmail.com,kadamrakhee@gmail.com', 'Urgent Roundtrip Car request from ' . $_POST['name'] , $body);
 
 			set_message('We have received your request. Will get back to you as soon as possible.');
 			redirect('feedback');
@@ -177,6 +179,26 @@ class Car extends CI_Controller {
 			$data['view']['data']['content'] = array();
 			page_render($data);
 
+		}
+	}
+
+	public function captcha_check() {
+		if (isset($_POST["recaptcha_response_field"]) && $_POST["recaptcha_response_field"]) {
+
+			$privatekey = "6Le1bOcSAAAAAEYdYTIK2BxHlCniasN5-SyUHHqP";
+			$resp = recaptcha_check_answer ($privatekey,
+				$_SERVER["REMOTE_ADDR"],
+				$_POST["recaptcha_challenge_field"],
+				$_POST["recaptcha_response_field"]);
+
+			if ($resp->is_valid) {
+				return true;
+			} else {
+				# set the error code so that we can display it
+				$error = $resp->error;
+				$this->form_validation->set_message('captcha_check', 'Incorrect Captcha');
+				return false;
+			}
 		}
 	}
 

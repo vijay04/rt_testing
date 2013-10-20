@@ -1,3 +1,4 @@
+<?php $publickey = "6Le1bOcSAAAAAK4aAObDNoe38Iuw4bq3uMIBR2_b"; ?>
 <div class="row">
 	<div class="span8">
 		<?php if (validation_errors()): ?>
@@ -23,8 +24,8 @@
 				<label>Comment/Suggestion/Feedback</label>
 				<?php echo form_textarea(array('name' => 'description', 'value' => set_value('description'))); ?>
 				<span class="help-block"></span>
-
-				<button type="submit" class="btn">Submit</button>
+				<?php print recaptcha_get_html($publickey, null);?>
+				<button type="submit" class="btn btn-success">Submit</button>
 			</fieldset>
 		</form>
 		<h4>OR</h4>

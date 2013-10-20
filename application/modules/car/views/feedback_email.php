@@ -8,5 +8,5 @@ Phone : <?php print $phone; ?><br/>
 Description : <?php print $description; ?><br/>
 
 <br/>
-Thanks,
+Thanks,<br/>
 Roundtip

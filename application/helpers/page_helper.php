@@ -67,7 +67,8 @@ if (!function_exists('send_email'))
 	function send_email($to, $subject, $message) {
 		//getting the ci instance
 		$ci =& get_instance();
-		Logger::debug_var('msg', $message);
+		$config['mailtype'] = 'html';
+		$ci->email->initialize($config);
 		$ci->load->library('email');
 		$ci->email->from(ADMIN_FROM_EMAIL, ADMIN_FROM_NAME);
 		$ci->email->to($to);
