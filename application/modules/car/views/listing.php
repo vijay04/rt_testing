@@ -54,7 +54,7 @@
 							<span ng-show={{car.stereo}}>Yes</span><span ng-show=!{{car.stereo}}>No</span>
 						</td>
 						<td>{{car.price}}<br/>Fare Summary</td>
-						<td><div class="btn btn-success">Book</div></td>
+						<td><div class="btn btn-success"><?php print anchor('feedback', 'Book'); ?></div></td>
 					</tr>
 				</tbody>
 			</table>
