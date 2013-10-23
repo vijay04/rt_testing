@@ -8,7 +8,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title><?php print isset($view['title']) ? $view['title'] : 'Welcome'; ?></title>
-    <meta name="description" content="">
+<meta name="description" content="Round Trip Cab - Book a Taxi on rent provides Online Cab Booking facility to user in Mumbai India.">
+<meta name="keyword" content="Round Trip Cab,Book a Taxi,Book a cab on rent,Hire Taxi,Taxi Hire on rent,">
     <meta name="viewport" content="width=device-width">
 
 
