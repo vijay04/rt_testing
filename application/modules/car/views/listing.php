@@ -1,6 +1,5 @@
+<h1>Cars</h1>
 <div ng-controller="listingCtrl" >
-
-
 	<div class="row"  ng-init="init(params=<?php print htmlspecialchars(json_encode($params)); ?>)">
 		<div class="span3">
 			<div class="well well-small">

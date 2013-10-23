@@ -1,4 +1,4 @@
-<h1>Cars</h1>
+
 <div class="row">
 	<div class="span8"><?php $this->load->view('car/tabs'); ?></div>
 	<div class="span4">
