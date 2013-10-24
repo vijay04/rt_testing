@@ -33,26 +33,28 @@
 
 		<div class="span4">
 			<h2>Why Choose RoundTripCab</h2>
+<div class="innerContent">
+<ul class="nav">
 
-			<ul class="nav">
 				<li>Online Booking</li>
 				<li> Available all over Mumbai</li>
 				<li> 24/7 Booking</li>
 				<li> Easy Payment option</li>
-			</ul>
+                
+			</ul>      
+             </div>   
 		</div>
 
 		<div class="span4"><h2>RoundTripCab Offeres</h2>
-			<ul class="nav">
-				<li class="convience">Well Trained Drivers</li>
-				<li>safety and comfort</li>
-			</ul>
+			Book any Cab and Get Rs 100 off on each Booking
 		</div>
 		<div class="span4"><h2>Testimonials</h2>
+        <div class="innerContent">
 			<ul class="nav">
 				<li>Well Trained Drivers</li>
 				<li>safety and comfort</li>
 			</ul>
+            </div>
 		</div>
 
 	</div>

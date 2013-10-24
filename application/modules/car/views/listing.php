@@ -44,6 +44,7 @@
 					</tr>
 				</thead>
 				<tbody>
+                <div>
 					<tr class="views-row" ng-repeat="car in cars | filter:carFilter | orderBy:predicate:reverse" ng-animate="'animate'">
 						<td><img src="<?php print base_url(); ?>{{car.image_path}}" width="150"/></td>
 						<td>{{car.title}}</td>
@@ -54,6 +55,7 @@
 						</td>
 						<td>{{car.price}}<br/>Fare Summary</td>
 						<td><div class="btn btn-success"><?php print anchor('feedback', 'Book'); ?></div></td>
+                        </div>
 					</tr>
 				</tbody>
 			</table>

@@ -34,8 +34,7 @@ if (defined('ENVIRONMENT'))
 	switch (ENVIRONMENT)
 	{
 		case 'development':
-			require_once 'C:/wamp/Log/Logger.php';
-			Logger::setFilename("C:/wamp/www/testsites/codeigniter/roundtrip/roundtrip.log");
+			
 			error_reporting(E_ALL);
 		break;
 	

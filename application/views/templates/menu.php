@@ -10,11 +10,11 @@ if ($url = uri_string()) {
 	<div class="container">
 		<div class="row">
 			<div class="span4">
-				<div id="site-title">Round TRip CAB</div>
+				<div id="site-title">Round Trip Cab</div>
 			</div>
 			<div class="span6 offset2">
 				<div class="row">
-					<div id="header_contact">24X7 Helpline 9664882395</div>
+					<div id="header_contact">Call US Helpline 9664882395</div>
 				</div>
 				<div class="row">
 					<div class="upmenu"> <ul>

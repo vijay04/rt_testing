@@ -1,9 +1,13 @@
-<p class="welcome">Hire A Cab on Rent</p>
+
 <div id="car-search-tabs">
+
 	<ul>
+    <li>Search for Cab</li>
+
 		<li><a href="#local_wrapper">Local Usage</a></li>
 		<li><a href="#outstation_wrapper">Outstation</a></li>
 		<li><a href="#airport_railway_wrapper">Airport/Railway Transfer</a></li>
+        
 	</ul>
 
 	<div id="local_wrapper">
@@ -33,10 +37,10 @@
 					<input type="radio" name="trip_type" id="round_trip" value="round_trip" checked>
 					Round Trip
 				</label>
-				<label class="radio inline">
+				<!--<label class="radio inline">
 					<input type="radio" name="trip_type" id="one_way_trip" value="one_way_trip">
 					One Way Trip
-				</label>
+				</label>-->
 			</div>
 
 			<div class="field">

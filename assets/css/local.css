@@ -41,9 +41,15 @@ a:hover
 }
 
 h2 {
-	font-size: 18px;
-	color: #8DB232;
-	border-bottom: 4px solid #8FA851;
+	font-size:18px;
+	color:#555555;
+	background: -moz-linear-gradient(center top , #C6D898 13px, #E8F0D6 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	/*background: url(../image/bkgd-header-orange.png) repeat-x scroll left top rgba(0, 0, 0, 0);*/
+    border-top: 1px solid #DDDDDD;
+	margin: 0;
+	font-weight:normal;
+	margin-top:25px;
+	text-align:center;
 }
 
 .header-wrapper {
@@ -180,9 +186,7 @@ ul.home-footer a:hover {
 
 /** homepage css start **/
 
-#car-search-tabs.ui-tabs .ui-tabs-panel {
-	background:-moz-linear-gradient(center top , #FFFFFF 20px, #D9D9D9 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
-}
+
 
 #car-search-tabs.ui-tabs .ui-tabs-nav li a {
 	background: -moz-linear-gradient(center top , #C6D898 13px, #E8F0D6 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -198,6 +202,7 @@ ul.home-footer a:hover {
 	border-width: 1px;
 	padding: 2em 1.4em;
 	background: none;
+	background: -moz-linear-gradient(center top , #FFFFFF 20px, #D9D9D9 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
 
 }
 .welcome {
@@ -214,13 +219,16 @@ ul.home-footer a:hover {
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 	padding: 0;
+	border-right:0px;
 	min-height: 320px;
+	border-left:0px;
 }
 
 #car-search-tabs .ui-widget-header {
 	border: none;
-	background: none;
+	
 	padding: 0;
+	background: -moz-linear-gradient(center top , #FFFFFF 20px, #D9D9D9 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 
 .field {
@@ -235,4 +243,22 @@ ul.home-footer a:hover {
 .feedback-info-text a {
 	color: #8DB232;
 	font-weight: bold;
+}
+.ui-tabs .ui-tabs-panel{
+    background: -moz-linear-gradient(center top , #FFFFFF 20px, #D9D9D9 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    
+}
+
+.innerContent{
+	padding: 9px;
+	border-left-color:#999;
+	border-right-color:#999;
+	margine:0 15px;
+
+}
+li{
+	background: url(../img/1382622861_43221.ico) repeat-x scroll left top rgba(0, 0, 0, 0);
+}
+img{
+	height:auto;
 }
