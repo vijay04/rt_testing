@@ -11,6 +11,7 @@
 <meta name="description" content="Round Trip Cab - Book a Taxi on rent provides Online Cab Booking facility to user in Mumbai India.">
 <meta name="keyword" content="Round Trip Cab,Book a Taxi,Book a cab on rent,Hire Taxi,Taxi Hire on rent,">
     <meta name="viewport" content="width=device-width">
+	  <link rel="shortcut icon" href="<?php print base_url(); ?>assets/img/favicon.ico" type="image/vnd.microsoft.icon" />
 
 
 	  <style type="text/css">
