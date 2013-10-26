@@ -14,7 +14,7 @@ if ($url = uri_string()) {
 			</div>
 			<div class="span6 offset2">
 				<div class="row">
-					<div id="header_contact">Call US Helpline 9664882395</div>
+					<div id="header_contact">Call Us 9664882935</div>
 				</div>
 				<div class="row">
 					<div class="upmenu"> <ul>
