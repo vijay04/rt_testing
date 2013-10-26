@@ -5,24 +5,28 @@
 		<div id="portfolio-jcarousel" class="jcarousel-skin-tango">
 			<ul>
 				<li>
-					<div class="image"><img src="<?php print base_url(); ?>uploads/chevrolet-tavera-3.jpg" width="250" height="250" alt="" /></div>
-					<div class="text">Some text</div>
+					<div class="image"><img src="<?php print base_url(); ?>uploads/indica.jpg" width="250" height="250" alt="" /></div>
+					<div class="text">Book TATA India Cab</div>
 				</li>
 				<li>
-					<div class="image"><img src="<?php print base_url(); ?>uploads/mahindra-scorpio.jpg" width="250" height="250" alt="" /></div>
-					<div class="text">Some text</div>
+					<div class="image"><img src="<?php print base_url(); ?>uploads/qualis.jpg" width="250" height="250" alt="" /></div>
+					<div class="text">Book Qualis Cab</div>
 				</li>
 				<li>
-					<div class="image"><img src="<?php print base_url(); ?>uploads/hire_tata_indigo.jpg" width="250" height="250" alt="" /></div>
-					<div class="text">Some text</div>
+					<div class="image"><img src="<?php print base_url(); ?>uploads/chevrolet-tavera.jpg" width="250" height="250" alt="" /></div>
+					<div class="text">Book Chevrolet Tavera Cab</div>
 				</li>
 				<li>
-					<div class="image"><img src="<?php print base_url(); ?>uploads/chevrolet-tavera-3.jpg" width="250" height="250" alt="" /></div>
-					<div class="text">Some text</div>
+					<div class="image"><img src="<?php print base_url(); ?>uploads/Mahindra-Xylo.jpg" width="250" height="250" alt="" /></div>
+					<div class="text">Book Mahindra Xylo Cab</div>
 				</li>
 				<li>
-					<div class="image"><img src="<?php print base_url(); ?>uploads/tavera.jpg" width="250" height="250" alt="" /></div>
-					<div class="text">Some text</div>
+					<div class="image"><img src="<?php print base_url(); ?>uploads/toyota-innova.jpg" width="250" height="250" alt="" /></div>
+					<div class="text">Book Toyota Innova Cab</div>
+				</li>
+                <li>
+					<div class="image"><img src="<?php print base_url(); ?>uploads/Toyota-Etios.jpg" width="250" height="250" alt="" /></div>
+					<div class="text">Book Toyota Etios Cab</div>
 				</li>
 			</ul>
 		</div>

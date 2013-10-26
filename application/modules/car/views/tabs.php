@@ -12,6 +12,17 @@
 
 	<div id="local_wrapper">
 		<form action="<?php print base_url() . 'car/listing' ?>" method="post">
+        <div class="field">
+				<label>Trip type</label>
+				<label class="radio inline">
+					<input type="radio" name="trip_type" id="full_day" value="round_trip" checked>
+					Full Day
+				</label>
+				<label class="radio inline">
+					<input type="radio" name="trip_type" id="half-day" value="one_way_trip">
+					Half Day
+				</label>
+			</div>
 			<div>
 				<label>I want a cab in</label>
 				<input type="text" name="local_city" value="" id="local_city" class="cities" placeholder="Select city">
