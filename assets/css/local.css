@@ -44,6 +44,8 @@ h2 {
 	font-size:18px;
 	color:#555555;
 	background: -moz-linear-gradient(center top , #C6D898 13px, #E8F0D6 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#C6D898), to(#E8F0D6)); /* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #C6D898, #E8F0D6); /* Firefox 3.6+ */ background: -moz-linear-gradient(top, #C6D898, #E8F0D6); /* IE 10 */ background: -ms-linear-gradient(top, #C6D898, #E8F0D6); /* Opera 11.10+ */ background: -o-linear-gradient(top, #C6D898, #E8F0D6);
 	/*background: url(../image/bkgd-header-orange.png) repeat-x scroll left top rgba(0, 0, 0, 0);*/
     border-top: 1px solid #DDDDDD;
 	margin: 0;
@@ -190,6 +192,8 @@ ul.home-footer a:hover {
 
 #car-search-tabs.ui-tabs .ui-tabs-nav li a {
 	background: -moz-linear-gradient(center top , #C6D898 13px, #E8F0D6 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#C6D898), to(#E8F0D6)); /* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #C6D898, #E8F0D6); /* Firefox 3.6+ */ background: -moz-linear-gradient(top, #C6D898, #E8F0D6); /* IE 10 */ background: -ms-linear-gradient(top, #C6D898, #E8F0D6); /* Opera 11.10+ */ background: -o-linear-gradient(top, #C6D898, #E8F0D6);
 }
 
 #car-search-tabs.ui-tabs .ui-tabs-nav li a {
@@ -203,6 +207,8 @@ ul.home-footer a:hover {
 	padding: 2em 1.4em;
 	background: none;
 	background: -moz-linear-gradient(center top , #FFFFFF 20px, #D9D9D9 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#D9D9D9)); /* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #FFFFFF, #D9D9D9); /* Firefox 3.6+ */ background: -moz-linear-gradient(top, #FFFFFF, #D9D9D9); /* IE 10 */ background: -ms-linear-gradient(top, #FFFFFF, #D9D9D9); /* Opera 11.10+ */ background: -o-linear-gradient(top, #FFFFFF, #D9D9D9);
 
 }
 .welcome {
@@ -229,6 +235,8 @@ ul.home-footer a:hover {
 	
 	padding: 0;
 	background: -moz-linear-gradient(center top , #FFFFFF 20px, #D9D9D9 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#D9D9D9)); /* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #FFFFFF, #D9D9D9); /* Firefox 3.6+ */ background: -moz-linear-gradient(top, #FFFFFF, #D9D9D9); /* IE 10 */ background: -ms-linear-gradient(top, #FFFFFF, #D9D9D9); /* Opera 11.10+ */ background: -o-linear-gradient(top, #FFFFFF, #D9D9D9);
 }
 
 .field {
@@ -246,13 +254,8 @@ ul.home-footer a:hover {
 }
 .ui-tabs .ui-tabs-panel{
     background: -moz-linear-gradient(center top , #FFFFFF 20px, #D9D9D9 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8ffe8), color-stop(0%,#e3f5ab), color-stop(100%,#e8f0d6)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 0%,#e8f0d6 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 0%,#e8f0d6 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 0%,#e8f0d6 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #f8ffe8 0%,#e3f5ab 0%,#e8f0d6 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', endColorstr='#e8f0d6',GradientType=0 ); /* IE6-8 */
- 100%) repeat scroll 0 0 rgba(0, 0, 0, 0)
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#D9D9D9)); /* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #FFFFFF, #D9D9D9); /* Firefox 3.6+ */ background: -moz-linear-gradient(top, #FFFFFF, #D9D9D9); /* IE 10 */ background: -ms-linear-gradient(top, #FFFFFF, #D9D9D9); /* Opera 11.10+ */ background: -o-linear-gradient(top, #FFFFFF, #D9D9D9);
     
 }
 
@@ -263,9 +266,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', end
 	margine:0 15px;
 
 }
-li{
+.li{
 	background: url(../img/1382622861_43221.ico) repeat-x scroll left top rgba(0, 0, 0, 0);
 }
-img{
-	height:auto;
+
+.slidebtn
+{
+	text-align:center;
+}
+.btn-success
+{margin-top:15px;
 }

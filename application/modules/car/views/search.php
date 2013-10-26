@@ -6,27 +6,33 @@
 			<ul>
 				<li>
 					<div class="image"><img src="<?php print base_url(); ?>uploads/indica.jpg" width="250" height="250" alt="" /></div>
-					<div class="text">Book TATA India Cab</div>
+					<div class="btn btn-success"><?php print anchor('feedback', 'Book Tata Indica Cab'); ?></div>
+                    Full Day 2200
 				</li>
 				<li>
 					<div class="image"><img src="<?php print base_url(); ?>uploads/qualis.jpg" width="250" height="250" alt="" /></div>
-					<div class="text">Book Qualis Cab</div>
+                    
+                    					<div class="btn btn-success"><?php print anchor('feedback', 'Book Qualis Cab'); ?></div>
+
 				</li>
 				<li>
 					<div class="image"><img src="<?php print base_url(); ?>uploads/chevrolet-tavera.jpg" width="250" height="250" alt="" /></div>
-					<div class="text">Book Chevrolet Tavera Cab</div>
+                    <div class="btn btn-success slidebtn" align="center"><?php print anchor('feedback', 'Book Chevrolet Tavera Cab'); ?></div>
+					
 				</li>
 				<li>
 					<div class="image"><img src="<?php print base_url(); ?>uploads/Mahindra-Xylo.jpg" width="250" height="250" alt="" /></div>
-					<div class="text">Book Mahindra Xylo Cab</div>
+                    <div class="btn btn-success"><?php print anchor('feedback', 'Book Mahindra Xylo Cab'); ?></div>
+					
 				</li>
 				<li>
 					<div class="image"><img src="<?php print base_url(); ?>uploads/toyota-innova.jpg" width="250" height="250" alt="" /></div>
-					<div class="text">Book Toyota Innova Cab</div>
+					                    <div class="btn btn-success"><?php print anchor('feedback', 'Book Toyota Innova Cab'); ?></div>
 				</li>
                 <li>
 					<div class="image"><img src="<?php print base_url(); ?>uploads/Toyota-Etios.jpg" width="250" height="250" alt="" /></div>
-					<div class="text">Book Toyota Etios Cab</div>
+                    <div class="btn btn-success"><?php print anchor('feedback', 'Book Toyota Etios Cab'); ?></div>
+					
 				</li>
 			</ul>
 		</div>
