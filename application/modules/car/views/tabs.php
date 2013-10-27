@@ -18,10 +18,10 @@
 					<input type="radio" name="trip_type" id="full_day" value="round_trip" checked>
 					Full Day
 				</label>
-				<label class="radio inline">
+				<!--<label class="radio inline">
 					<input type="radio" name="trip_type" id="half-day" value="one_way_trip">
 					Half Day
-				</label>
+				</label>-->
 			</div>
 			<div>
 				<label>I want a cab in</label>
@@ -33,9 +33,9 @@
 				<input type="text" name="local_pickup_date" value="" id="local_pickup_date" class="datepicker_select">
 			</div>
 			<div class="controls">
-				<div class="btn btn-success">
-					<input type="submit" value="search" class="btn">
-				</div>
+
+					<button type="submit" class="btn btn-success">Search</button>
+
 			</div>
 		</form>
 	</div>
@@ -81,9 +81,9 @@
 			</div>
 
 			<div class="controls">
-				<div class="btn btn-success">
-					<input type="submit" value="search" class="btn">
-				</div>
+				
+<button type="submit" class="btn btn-success">Search</button>
+				
 			</div>
 		</form>
 	</div>
@@ -131,9 +131,9 @@
 			</div>
 
 			<div class="controls">
-				<div class="btn btn-success">
-					<input type="submit" value="search" class="btn">
-				</div>
+
+					<button type="submit" class="btn btn-success">Search</button>
+				
 			</div>
 
 
