@@ -2,8 +2,7 @@
 <div id="car-search-tabs">
 
 	<ul>
-    <li>Search for Cab</li>
-
+    <li class="search-cabs-text">Search for Cab</li>
 		<li><a href="#local_wrapper">Local Usage</a></li>
 		<li><a href="#outstation_wrapper">Outstation</a></li>
 		<li><a href="#airport_railway_wrapper">Airport/Railway Transfer</a></li>

@@ -232,11 +232,16 @@ ul.home-footer a:hover {
 
 #car-search-tabs .ui-widget-header {
 	border: none;
-	
 	padding: 0;
 	background: -moz-linear-gradient(center top , #FFFFFF 20px, #D9D9D9 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#D9D9D9)); /* Safari 5.1, Chrome 10+ */ 
 	background: -webkit-linear-gradient(top, #FFFFFF, #D9D9D9); /* Firefox 3.6+ */ background: -moz-linear-gradient(top, #FFFFFF, #D9D9D9); /* IE 10 */ background: -ms-linear-gradient(top, #FFFFFF, #D9D9D9); /* Opera 11.10+ */ background: -o-linear-gradient(top, #FFFFFF, #D9D9D9);
+}
+
+#car-search-tabs .search-cabs-text {
+	padding-left: 11px;
+	padding-right: 11px;
+	padding-top: 10px;
 }
 
 .field {
