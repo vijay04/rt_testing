@@ -232,6 +232,7 @@ ul.home-footer a:hover {
 
 #car-search-tabs .ui-widget-header {
 	border: none;
+	
 	padding: 0;
 	background: -moz-linear-gradient(center top , #FFFFFF 20px, #D9D9D9 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#D9D9D9)); /* Safari 5.1, Chrome 10+ */ 
@@ -243,7 +244,6 @@ ul.home-footer a:hover {
 	padding-right: 11px;
 	padding-top: 10px;
 }
-
 .field {
 	margin-bottom: 15px;
 }
@@ -282,15 +282,11 @@ ul.home-footer a:hover {
 .btn-success
 {margin-top:15px;
 }
-.bubbleInfo {
-    position: relative;
-}
 
-.popup {
-    position: absolute;
-    display: none; /* keeps the popup hidden if no JS available */
-}
 .testimonials
 {
-	background-color:#EDEDED;
+       background-color:#EDEDED;
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
 }

@@ -7,11 +7,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title><?php print isset($view['title']) ? $view['title'] : 'Welcome'; ?></title>
-<meta name="description" content="Round Trip Cab - Book a Taxi on rent provides Online Cab Booking facility to user in Mumbai India.">
+    <title>Round Trip Cab - Book a Cab on Rent,Hire Taxi,Cab Hire in Mumbai, India </title>
+    <meta name="description" content="Round Trip Cab - Book a Taxi on rent provides Online Cab Booking facility to user in Mumbai India.">
 <meta name="keyword" content="Round Trip Cab,Book a Taxi,Book a cab on rent,Hire Taxi,Taxi Hire on rent,">
     <meta name="viewport" content="width=device-width">
-	  <link rel="shortcut icon" href="<?php print base_url(); ?>assets/img/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="shortcut icon" href="<?php print base_url(); ?>assets/img/favicon.ico" type="image/vnd.microsoft.icon" />
 
 
 	  <style type="text/css">

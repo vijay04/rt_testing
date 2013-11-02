@@ -60,6 +60,7 @@ class Car extends CI_Controller {
 				$days =  ceil(abs($datediff) / 86400) + 1;
 			}
 		}
+		
 		foreach($cars as $c => $value) {
 			if ($days) {
 				$value['price'] = $value['outsource_day_cost'] * $days * 250;
@@ -68,6 +69,9 @@ class Car extends CI_Controller {
 			}
 			else {
 				$value['price'] = $value['local_half_day_cost'];
+				if ($_POST['trip_type'] == 'local_full_day') {
+					$value['price'] = $value['local_half_day_cost'] * 2;
+				}
 			}
 			$output[] = $value;
 		}
@@ -144,7 +148,6 @@ class Car extends CI_Controller {
 			show_404();
 		}
 	}
-
 	function feedback() {
 		require_once('recaptchalib.php');
 
@@ -168,7 +171,7 @@ class Car extends CI_Controller {
 
 			$body = '';
 			$body = $this->load->view('feedback_email', $feedback_data, true);
-			send_email('vijay.mayekar04@gmail.com,kadamrakhee@gmail.com', 'Urgent Roundtrip Car request from ' . $_POST['name'] , $body);
+			send_email('vijay.mayekar04@gmail.com,kadamrakhee@gmail.com', 'Urgent Roundtrip Car request from '. $_POST['name'], $body);
 
 			set_message('We have received your request. Will get back to you as soon as possible.');
 			redirect('feedback');

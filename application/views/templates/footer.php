@@ -6,26 +6,26 @@
 				<div id="footer_content1" class="footer_links span3">
 					<div class="footer_heading">RoundTripCab Services</div>
 					<ul class="home-footer">
-						<li><a href="web-designing.html" title="Web Designing">About us </a></li>
-						<li><a href="flash-and-interactive-web-media.html" title="Flash and Interactive Web Media">Book Car</a></li>
-						<li><a href="php-web-development-and-programming.html" title="PHP and MySQL Web Development">Attach Your Car</a></li>
-						<li><a href="aspdotnet-software-development.html" title="ASP and ASP.NET Software Development">Advertise</a></li>
+						<li><a href="<?php print base_url(); ?>about" title="About us">About us </a></li>
+<li><a href="<?php print base_url(); ?>feedback" title="Book Cab online">Book Cab</a></li>
+<li><a href="#" title="Attach Your Car with Round Trip Cab">Attach Your Car</a></li>
+<li><a href="<?php print base_url(); ?>feedback" title="Advertise on Round Trip Cab">Advertise</a></li>
 					</ul>
 				</div>
 				<div id="footer_content2" class="footer_links span3">
 					<div class="footer_heading">Quick Links</div>
 					<ul class="home-footer">
-						<li><a href="index.html" title="Webmax Technologies provides web developer Mumbai,web design,web design company mumbai,website designing">Home</a></li>
-						<li><a href="key-differentiators.html" title="Key Differentiators">Key Differentiators</a></li>
-						<li><a href="client-list.html" title="Featured Clients">Featured Clients</a></li>
+						<li><a href="<?php print base_url(); ?>" title="Round Trip Cab">Home</a></li>
+<li><a href="#" title="Offeres">Offeres</a></li>
+<li><a href="<?php print base_url(); ?>about" title="About Us">About US</a></li>
 					</ul>
 				</div>
 				<div id="footer_content3" class="footer_links span3">
 					<div class="footer_heading">Popular Cities</div>
 					<ul class="home-footer">
-						<li><a href="index.html" title="Webmax Technologies provides web developer Mumbai,web design,web design company mumbai,website designing">Mumbai</a></li>
-						<li><a href="key-differentiators.html" title="Key Differentiators">Pune</a></li>
-						<li><a href="client-list.html" title="Featured Clients">Surat</a></li>
+						<li><a href="#" title="Hire a Cab in Mumbai">Mumbai</a></li>
+<li><a href="#" title="Hire a Cab in Panvel">Vashi</a></li>
+<li><a href="#" title="Hire a Cab in Panvel">Panvel</a></li>
 					</ul>
 				</div>
 				<div id="footer_content4" class="footer_links span3">

@@ -1,8 +1,8 @@
-
 <div id="car-search-tabs">
 
-	<ul>
+	<ul class="ui-tabs">
     <li class="search-cabs-text">Search for Cab</li>
+
 		<li><a href="#local_wrapper">Local Usage</a></li>
 		<li><a href="#outstation_wrapper">Outstation</a></li>
 		<li><a href="#airport_railway_wrapper">Airport/Railway Transfer</a></li>
@@ -14,13 +14,13 @@
         <div class="field">
 				<label>Trip type</label>
 				<label class="radio inline">
-					<input type="radio" name="trip_type" id="full_day" value="round_trip" checked>
+					<input type="radio" name="trip_type" id="full_day" value="local_full_day" checked>
 					Full Day
 				</label>
-				<!--<label class="radio inline">
-					<input type="radio" name="trip_type" id="half-day" value="one_way_trip">
+				<label class="radio inline">
+					<input type="radio" name="trip_type" id="half-day" value="local_half_day">
 					Half Day
-				</label>-->
+				</label>
 			</div>
 			<div>
 				<label>I want a cab in</label>
@@ -33,7 +33,8 @@
 			</div>
 			<div class="controls">
 
-					<button type="submit" class="btn btn-success">Search</button>
+<button type="submit" class="btn btn-success">Search</button>
+					
 
 			</div>
 		</form>
@@ -139,4 +140,3 @@
 		</form>
 	</div>
 </div>
-
